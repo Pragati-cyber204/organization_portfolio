@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Reliance Industries</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <style>
+        * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: 'Montserrat', sans-serif;
+      color: #000;
+      scroll-behavior: smooth;
+      background: #121212;
+    }
+
+    nav {
+      background-color: rgba(0, 0, 0, 0.6);
+      padding: 15px 30px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .logo {
+      font-size: 26px;
+      color: #fff;
+      font-weight: 700;
+    }
+
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 25px;
+      font-size: 18px;
+      font-weight: 600;
+      transition: color 0.3s;
+    }
+
+    .menu a:hover {
+      color: #ffd700;
+    }
+
+    section {
+      height: 100vh;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .section-content {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 15px;
+      width: 85%;
+      max-width: 1000px;
+      backdrop-filter: blur(6px);
+    }
+
+    h1, h2 {
+      font-size: 36px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    ul, p {
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 1.8;
+      text-align: left;
+    }
+
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+#home {
+  background-color: #FFFFFF; /* true black */
+  color: #002E6D;
+}
+
+#about {
+  background-color: #F5F5F5; /* very dark gray */
+  color: #002E6D;
+}
+#services {
+  background-color: #FFFFFF;
+  color: #002E6D;
+}
+
+#projects {
+  background-color: #E8F0FA;
+  color: #1A1F71;
+}
+
+#leadership {
+  background-color: #FFFFFF;
+  color: #CDA349;
+}
+
+#contact {
+  background-color: #00AEEF;
+  color: #FFFFFF;
+}
+   footer {
+      background-color: #111;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      font-weight: 600;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .menu a {
+        display: block;
+        margin: 10px 0;
+      }
+
+      .section-content {
+        width: 95%;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <div class="logo">Reliance Industries</div>
+    <div class="menu">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#projects">Projects</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <section id="home">
+    <div class="section-content">
+      <h1>Welcome to Reliance Industries</h1>
+      <p>Driving India's growth through innovation, technology, and sustainability.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="section-content">
+      <h2>About Us</h2>
+      <p>Reliance Industries Limited is India's largest private sector company with businesses in energy, petrochemicals, textiles, natural resources, retail, and telecommunications.</p>
+    </div>
+  </section>
+
+  <section id="services">
+    <div class="section-content">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Oil & Gas Exploration and Production</li>
+        <li>Petrochemicals and Refining</li>
+        <li>Retail and E-commerce</li>
+        <li>Telecommunications (Jio)</li>
+        <li>Digital Services and Technology</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="section-content">
+      <h2>Key Projects</h2>
+      <ul>
+        <li><strong>Jio 5G Rollout:</strong> Bringing ultra-fast internet across India.</li>
+        <li><strong>Jamnagar Refinery:</strong> World's largest refining complex.</li>
+        <li><strong>Retail Expansion:</strong> Reliance Retail is reshaping shopping in India.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="leadership">
+    <div class="section-content">
+      <h2>Leadership</h2>
+      <ul>
+        <li><strong>Mukesh Ambani:</strong> Chairman & Managing Director</li>
+        <li><strong>Isha Ambani, Akash Ambani:</strong> Board of Directors</li>
+        <li><strong>Nikhil Meswani, Hital Meswani:</strong> Executive Directors</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="section-content">
+      <h2>Contact Us</h2>
+      <ul>
+        <li><strong>Phone:</strong> +91 22 3555 5000</li>
+        <li><strong>Email:</strong> info@ril.com</li>
+        <li><strong>Address:</strong> Maker Chambers IV, Nariman Point, Mumbai - 400021</li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Reliance Industries Limited. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
